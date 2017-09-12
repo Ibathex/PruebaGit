@@ -1,10 +1,12 @@
 
-public interface FabricaRanger {
-	/*
-	public boolean apilar(Monstruo monstruo);
-    public boolean desapilar(Monstruo monstruo);
-    public boolean encolar(Monstruo monstruo);
-    public boolean desencolar(Monstruo monstruo);
-    public Monstruo fabricar(String elemento);*/
+
+
+public interface FabricaRanger<E> {
+	
+	public boolean apilar();
+    public boolean desapilar();
+    public boolean encolar();
+    public boolean desencolar();
+    public Monstruo fabricar();
 
 }

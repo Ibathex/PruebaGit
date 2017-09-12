@@ -2,7 +2,6 @@
 public class CalcChudnovsky implements Chudnovsky{
 
 	double k;
-	
 	public double factorial(double k) {
 		this.k = k;
 		if (k==0) {
